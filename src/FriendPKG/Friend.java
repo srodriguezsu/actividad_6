@@ -145,24 +145,6 @@ public class Friend {
 
     // Remove and add from the list
 
-    private boolean numberInList(Friend friend){
-        for (Friend amigo:
-                friendList) {
-            if(friend.getPhoneNumber().equals(amigo.getPhoneNumber())){
-                return true;
-            }
-        }
-        return false;
-    }
-    private boolean nameInList(Friend friend){
-        for (Friend amigo:
-                friendList) {
-            if(friend.getName().equals(amigo.getName())){
-                return true;
-            }
-        }
-        return false;
-    }
 
     private static void addFriendList(Friend friend) {
 
